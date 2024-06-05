@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Emmanuel Quarshie</div>
+        <div>
+          <ul class="nav-links">
+  
+            
+            <li><a href="#experience">Experience</a></li>
+            
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+     <div class="logo">Emmanuel Quarshie</div>
+     <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+       <span></span>
+       <span></span>
+       <span></span>
+      </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+     </div>
+
+
+
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container" >
+            <img src="./1000073124-Fotor-202405291041.png" width="400px" height="400px" 
+            alt="Emmanuel Quarshie's Profile Picture"
+        >
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">
+                Hello, I'm
+            </p>
+            <h1 class="title">
+                Emmanuel Quarshie
+            </h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Resume (1).pdf')">
+                    Download CV
+
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='.#contact'">
+                    Contact Info
+
+                </button>
+
+                <div id="socials-container">
+                    <img  class="icon" onclick="location.href='https://www.linkedin.com/in/quarshie-emmanuel-137ba6203/' "src="./linkedin.png" alt="My LinkedIn Profile">
+                    <img  class="icon" onclick="location.href='https://github.com/quarshie233' "src="./github.png" alt="My Github Profile">
+
+
+                </div>                
+        <div>
+
+        </div>
+
+
+     
+
+
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">
+           Explore My
+        </p>
+        <h1 class="title">
+            Experience
+        </h1>.
+        <div class="experience-details-container">
+            <div class="about-containers" >
+                <h2 class="experience-sub-title">Software Developer</h2>
+               <div class="article-container">
+                 <article>
+                    <img src="./checkmark.png" alt="Experience Icon" class="icon">
+                    <div>
+                        <h3>
+                            HTML
+                        </h3>
+                        <p>Experienced</p>
+                    </div>
+                 </article>
+                 <article>
+                    <img src="./checkmark.png" alt="Experience Icon" class="icon">
+                    <div>
+                        <h3>
+                            CSS
+                        </h3>
+                        <p>Intermediate</p>
+                    </div>
+                 </article>
+                 <article>
+                    <img src="./checkmark.png" alt="Experience Icon" class="icon">
+                    <div>
+                        <h3>
+                            Javascript
+                        </h3>
+                        <p>Intermediate</p>
+                    </div>
+                 </article>
+                 <article>
+                    <img src="./checkmark.png" alt="Experience Icon" class="icon">
+                    <div>
+                        <h3>
+                            Kotlin
+                        </h3>
+                        <p>Beginner</p>
+                    </div>
+                 </article>
+                 <article>
+                    <img src="./checkmark.png" alt="Experience Icon" class="icon">
+                    <div>
+                        <h3>
+                            Java
+                        </h3>
+                        <p>Beginnner</p>
+                    </div>
+                 </article>
+                 <article>
+                    <img src="./checkmark.png" alt="Experience Icon" class="icon">
+                    <div>
+                        <h3>
+                            Python 
+                        </h3>
+                        <p>Intermediate</p>
+                    </div>
+                 </article>
+                 <article>
+                    <img src="./checkmark.png" alt="Experience Icon" class="icon">
+                    <div>
+                        <h3>
+                            mySQL
+                        </h3>
+                        <p>Intermediate</p>
+                    </div>
+                 </article>
+
+               </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">
+            Get In Touch
+        </p>
+        <h1 class="title">
+            Contact Me
+        </h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./email.png" alt="Email-icon" class="icon contact-icon">
+                <p>
+                    <a href="mailto:quarshiemmanuel01@gmail.com">quarshiemmanuel01@gmail.com</a>
+
+                </p>
+            </div>
+
+        </div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./linkedin.png" alt="linkedin-icon" class="icon contact-icon">
+                <p>
+                    <a href="https://www.linkedin.com/in/quarshie-emmanuel-137ba6203/">LinkedIn</a>
+
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about"></a></li>
+                    <li><a href="experience"></a></li>
+                    <li><a href="#projects"></a></li>
+                    <li><a href="#contacts"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <p> Copyright  &#169; 2024  Quarshie Emmanuel. All Rights Reserved</p>
+    </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
